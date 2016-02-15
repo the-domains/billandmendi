@@ -1,28 +1,40 @@
-name: BillandMendi
-favicon: null
-layout_spectrum: 0.6760769642423838
-typography_spectrum: 0.9512939269188792
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.9265233
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5393661467824131
+  brandStrength: 0.9039405859075487
+  rhythmicContrast: 0.8070627045817673
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.9039405859075487
   lightness: 0.7902559419162571
-  saturation: 0.5393661467824131
-  rhythmicContrast: 0.8070627045817673
-purpose: []
+typography_spectrum: 0.853644
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: BillandMendi
