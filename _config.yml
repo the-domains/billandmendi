@@ -1,4 +1,8 @@
-layout_spectrum: 0.9265233
+favicon: null
+cta:
+  bucket: null
+  version: null
+  domain: null
 opengraph:
   image: null
   type: null
@@ -9,12 +13,12 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.5393661467824131
@@ -28,13 +32,9 @@ color:
     - '#3B28CC'
   lightness: 0.7902559419162571
 typography_spectrum: 0.853644
-cta:
-  bucket: null
-  version: null
-  domain: null
+layout_spectrum: 0.6409796
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
 name: BillandMendi
